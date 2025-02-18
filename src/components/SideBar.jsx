@@ -25,6 +25,12 @@ const SideBar = () => {
       </button>
       {/*Sidebar*/}
       <div className = {'sidebar${visible ? "open" : ""}'}>
+        <div className = "sidebar-header">
+        <h2>Gemini sidebar</h2>
+        </div>
+        <nav className = "sidebar-nav">
+        <a href = "#" onClick = {() => handleMenuItemClick("</a>
+      </nav>
       </div>
     
     
