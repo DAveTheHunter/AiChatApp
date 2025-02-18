@@ -32,7 +32,12 @@ const SideBar = () => {
         <a href = "#" onClick = {() => handleMenuItemClick("</a>
       </nav>
       </div>
-    
-    
-    
+    <div className = {content${visible ? "shifted" : ""}'}>
+         <h1>Welcome to the Gemini-inspired Sidebar</h1>
+         <p>Resize the window to see the responsive sidebar in action!</p>
+        </div>
     </div>
+ );
+      };
+
+export default SideBar;
